@@ -1,0 +1,52 @@
+.country-selector-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start; 
+  margin: 20px;
+}
+
+.main-table-container {
+  flex: 1; 
+  margin-right: 20px; 
+}
+
+.table-container {
+  width: 100%;
+}
+
+.country-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.country-table th, .country-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.side-tables-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 300px; 
+  margin-left: 20px;
+}
+
+
+.side-table {
+  margin-bottom: 20px;
+}
